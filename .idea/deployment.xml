@@ -16,6 +16,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="pi@192.168.123.107:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/pi/DL" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="pi@192.168.3.48:22">
         <serverdata>
           <mappings>
