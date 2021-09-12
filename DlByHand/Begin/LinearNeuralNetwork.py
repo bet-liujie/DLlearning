@@ -61,3 +61,4 @@ params = [(0, 1), (0, 2), (3, 1)]
 a = d2l.plot(x, [normal(x, mu, sigma) for mu, sigma in params], xlabel='x',
              ylabel='p(x)', figsize=(4.5, 2.5),
              legend=[f'mean{mu},std{sigma}' for mu, sigma in params])  # 可视化,但没出来不知道为啥
+a.show()
