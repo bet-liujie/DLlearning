@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="jie@192.168.123.213:22" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="jie@192.168.123.213:22 password" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
     <serverData>
       <paths name="jie@192.168.123.213:22">
         <serverdata>
@@ -19,7 +19,7 @@
       <paths name="jie@192.168.123.213:22 password">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/jie/DL" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/jie/deeplearning" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
