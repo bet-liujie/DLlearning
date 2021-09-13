@@ -1,7 +1,6 @@
 import torch
 import random
 from d2l import torch as d2l
-import matplotlib
 
 
 # 生成数据集
@@ -19,12 +18,12 @@ features, labels = synthetic_data(true_w, true_b, 1000)
 
 print('features:', features[0], '\nlabel:', labels[0])
 d2l.set_figsize()
-d2l.plt.scatter(features[:, (1)].detach().numpy(),
-                labels.detach().numpy(), 1);
+d2l.plt.scatter(features[:, 1].detach().numpy(),
+                labels.detach().numpy(), 1)
 
 
 # 读取数据集
-def data_iter(batch_size, features, labels):
+def data_iter(batch_size, features, labels):  # @save
     num_examples = len(features)
     indices = list(range(num_examples))
     random.shuffle(indices)
@@ -32,9 +31,8 @@ def data_iter(batch_size, features, labels):
         batch_indices = torch.tensor(indices[i:min(i + batch_size, num_examples)])
         yield features[batch_indices], labels[batch_indices]
 
-    batch_size = 10
 
-    for X, y in data_iter(batch_size, features, labels):
-        print(X, '\n', y)
-        break
-
+batch_size = 10
+for X, y in data_iter(batch_size, features, labels):
+    print(X, '\n', y)
+    break
