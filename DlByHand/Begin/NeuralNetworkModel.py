@@ -73,3 +73,5 @@ for epoch in range(num_epochs):
     with torch.no_grad():
         train_l = loss(net(features, w, b), labels)
         print(f'epoch {epoch + 1},loss {float(train_l.mean()):f}')
+print(f'w的估计误差: {true_w - w.reshape(true_w.shape)}')
+print(f'b的估计误差: {true_b - b}')
