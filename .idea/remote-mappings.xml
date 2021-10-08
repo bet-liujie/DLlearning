@@ -4,6 +4,13 @@
     <list>
       <list>
         <remote-mappings server-id="python@06702eb0-2528-49b7-83e5-1f5007e9cb28" />
+        <remote-mappings server-id="python@sftp://aaujzh662@210.45.176.141:32/home/aaujzh662/.conda/envs/pytorch/bin/python3">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/aaujzh662/lj/deeplearning" />
+            </list>
+          </settings>
+        </remote-mappings>
       </list>
     </list>
   </component>
