@@ -48,7 +48,6 @@ class Net(torch.nn.Module):
 model = Net()
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")  # 启用gpu
 model.to(device)
-
 criterion = torch.nn.CrossEntropyLoss()  # 损失函数
 optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)  # 优化器
 

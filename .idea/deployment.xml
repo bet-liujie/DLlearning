@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="aaujzh662@210.45.176.141:32" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="aaujzh662@210.45.176.141:32 password" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
     <serverData>
-      <paths name="aaujzh660@81.69.201.59:6636">
+      <paths name="aaujzh660@81.69.201.59:6636 password">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/aaujzh662/lj/deeplearning" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/aaujzh662/lj" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="aaujzh662@210.45.176.141:32">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/aaujzh662/lj" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="aaujzh662@210.45.176.141:32 password">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="aaujzh662@210.45.176.141:32 password (1)">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="jie@192.168.123.213:22">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/home/jie/deeplearning" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="jie@192.168.123.213:22 (2)">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/home/jie/DL" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="jie@192.168.123.213:22 password">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/home/jie/deeplearning" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="jie@192.168.123.213:22 password (1)">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="jie@192.168.123.213:22 password (2)">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/aaujzh662/lj" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>

@@ -7,7 +7,7 @@
         <remote-mappings server-id="python@sftp://aaujzh662@210.45.176.141:32/home/aaujzh662/.conda/envs/pytorch/bin/python3">
           <settings>
             <list>
-              <mapping local-root="$PROJECT_DIR$" remote-root="/home/aaujzh662/lj/deeplearning" />
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/aaujzh662/lj" />
             </list>
           </settings>
         </remote-mappings>
